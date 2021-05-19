@@ -115,7 +115,7 @@ function App() {
     };
 
     axios.post(
-      'https://fef3f7507ffd.ngrok.io/query', 
+      'https://retail-dialogflow-api.herokuapp.com/query', 
       {
         userTextResponse: userTextResponse
       },
